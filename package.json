@@ -1,0 +1,51 @@
+{
+  "name": "ioserver-http",
+  "version": "1.0.0",
+  "description": "Simple server for static page service",
+  "main": "build/server.js",
+  "files": [
+    "build/"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "./node_modules/coffeescript/bin/coffee --no-header --map --output build/ --compile src/",
+    "test": "mocha --exit",
+    "gpr-setup": "node scripts/gpr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x42en/IOServer-HTTP.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "keywords": [
+    "socket.io",
+    "http",
+    "https",
+    "simple",
+    "server",
+    "ssl",
+    "nodejs",
+    "x42en",
+    "ioserver"
+  ],
+  "author": "Ben Mz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/x42en/IOServer-HTTP/issues"
+  },
+  "homepage": "https://github.com/x42en/IOServer-HTTP#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "coffeescript": "^2.5.1",
+    "mocha": "^8.2.1",
+    "snyk": "^1.433.0"
+  },
+  "dependencies": {
+    "ioserver": "^1.2.0"
+  }
+}
