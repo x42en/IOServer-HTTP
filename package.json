@@ -1,6 +1,6 @@
 {
   "name": "ioserver-http",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple server for static page service",
   "main": "build/server.js",
   "files": [
