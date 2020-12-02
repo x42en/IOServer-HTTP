@@ -42,7 +42,6 @@
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "coffeescript": "^2.5.1",
-    "ioserver": "^1.2.0",
     "mocha": "^8.2.1",
     "snyk": "^1.433.0"
   },
